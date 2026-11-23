@@ -1,0 +1,110 @@
+# ======================
+# Jupyter Notebook
+# ======================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# ======================
+# Trained Model Files
+# ======================
+*.keras
+*.h5
+*.pb
+*.ckpt
+*.ckpt.*
+*.index
+*.data-*
+saved_model/
+models/
+checkpoints/
+
+# Specific model files from this project
+best_breast_mri_model.keras
+best_vgg16_breast_mri_model.keras
+best_resnet50_breast_mri_model.keras
+
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ======================
+# Virtual Environments
+# ======================
+env/
+venv/
+.env/
+.venv/
+ENV/
+
+# ======================
+# Dataset / Data Files
+# ======================
+# Kaggle datasets (large binary files)
+*.zip
+*.tar.gz
+*.tar
+data/
+dataset/
+datasets/
+
+# ======================
+# Kaggle Credentials
+# ======================
+kaggle.json
+.kaggle/
+
+# ======================
+# OS Generated Files
+# ======================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.nfs*
+
+# ======================
+# IDE / Editor Files
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.suo
+*.user
+
+# ======================
+# Logs & Outputs
+# ======================
+*.log
+logs/
+runs/
+tensorboard_logs/
+wandb/
+
+# ======================
+# Temporary Files
+# ======================
+*.tmp
+*.temp
+tmp/
+temp/

@@ -1,5 +1,5 @@
 # Breast MRI Tumor Classification
-### Comparing Custom CNN · VGG16 · ResNet50
+### Comparison of CNN, Resnet50 and VGG16 For Breast MRI Tumor Classification
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white"/>
